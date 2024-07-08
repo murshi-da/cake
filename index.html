@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <style>
+        .div1{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        }
+        .p1{
+              margin-left: 15px;
+            }
+            
+    </style>
+</head>
+<body>
+
+ <!-- navbar -->
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <a class="navbar-brand text-white fw-bold" href="#">Hey Sugar!!!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Order</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            category
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-success my-2 my-sm-0 me-2" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+<!-- carousal -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://clintonsmith.co.uk/wp-content/uploads/2018/08/The-Cake-Studio-Website-Design-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-dark">CAKE this world a better place with these super easy recipes</h5>
+        <p class="text-dark">.CAKE this world a better place with these super easy recipes</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn2.vectorstock.com/i/1000x1000/10/46/bakery-and-pastry-desserts-banner-template-set-vector-13491046.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-dark">>CAKE this world a better place with these super easy recipes</h5>
+        <p class="text-dark">CAKE this world a better place with these super easy recipes!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/cake-flyer-template-design-03145585810f12b7a370b1a8abbe3d2b_screen.jpg?ts=1587472514" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>  
+
+
+
+
+
+  <!-- order section -->
+
+      <h1 class="text-center">Order Your Cakes Now...</h1>
+          <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.yourcupofcake.com/wp-content/uploads/2013/01/Red-Velvet-Cupcakes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">stawberry cupcake</h5>
+                          <p class="card-text">stawberry with vanila</p>
+                          <h5 class="card-text text-danger">Rs: 1000</h5>
+                          <a href="#order" class="btn btn-primary">order now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://sallysbakingaddiction.com/wp-content/uploads/2014/06/best-chocolate-cupcakes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">chocooo</h5>
+                          <p class="card-text">chocooo</p>
+                          <h5 class="card-title text-danger">Rs: 5000 </h5>
+                          <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="http://images.media-allrecipes.com/userphotos/960x960/4482229.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">bluberry</h5>
+                          <p class="card-text">bluberry with vanila</p>
+                          <h5 class="card-title text-danger">Rs: 5000 </h5>
+
+                          <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-special-floral-cake-half-kg--281092-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">choco</h5>
+                          <p class="card-text">Chocolate Turffle Cake Half Kg by FNP </p>
+                          <h5 class="card-title text-danger">Rs: 5000 </h5>
+                          <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-stars-chocolate-cake-half-kg--4784-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">vanila</h5>
+                          <p class="card-text">Chocolate Turffle Cake Half Kg by FNP</p>
+                          <h5 class="card-title text-danger">Rs: 5000 </h5>
+
+                          <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://cdn.igp.com/f_auto,q_auto,t_pnopt12prodlp/products/p-choco-indulgence-birthday-cake-600-gm--276155-m.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">chocolate</h5>
+                          <p class="card-text">Chocolate Turffle Cake Half Kg by FNP</p>
+                          <h5 class="card-title text-danger">Rs: 5000 </h5>
+
+                          <a href="#" class="btn btn-primary">order now</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          
+
+<!-- category -->
+<h1 class="text-center text-dark fw-bold">category</h1><br><br>
+                     
+<h5 class=" text-center text-primary">Fresh Fruit Cakes</h5>
+
+
+                  <div class="container">
+                    <div class="row my-2">
+                      <div class="col-4">
+                       
+                        <img width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/fruit-overload-cake-half-kg_1.jpg" alt="">
+                     
+                        <h5 class="card-title text-danger">Rs: 5000 </h5>
+                      </div>
+                      <div class="col-4">
+                        <img  width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/mango-delight-cream-cake_1.jpg" alt="">
+                      
+                        <h5 class="card-title text-danger">Rs: 6000 </h5>
+                      </div>
+                      <div class="col-4">
+                            <img   width="300px" height="60%"         src="https://www.fnp.com/images/pr/l/v200/divine-mango-cream-cake_1.jpg" alt="">          
+                            <h5 class="card-title text-danger">Rs: 5000 </h5>
+
+                          </div>
+                    </div>
+                  </div>
+
+
+
+                     
+                  <h5 class=" text-center text-primary">Eggless Cakes</h5>
+                  
+                  
+                                    <div class="container">
+                                      <div class="row my-3">
+                                        <div class="col-4">
+                                          <img width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/heavenly-butterscotch-cream-cake-half-kg-eggless_1.jpg" alt="">
+                                      
+                                          <h5 class="card-title text-danger">Rs: 3500 </h5>
+                                        </div>
+                                        <div class="col-4">
+                                          <img  width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/vanilla-cake-with-gulab-jamun-half-kg-eggless_1.jpg" alt="">
+                                          <h5 class="card-title text-danger">Rs: 2000 </h5>
+
+                                        </div>
+                                        <div class="col-4">
+                                              <img   width="300px" height="60%"         src="https://www.fnp.com/images/pr/l/v200/rosy-white-forest-cake-half-kg-eggless_1.jpg" alt="">          
+                                        
+                                              <h5 class="card-title text-danger">Rs: 7000 </h5>
+                                            </div>
+                                      </div>
+                                    </div>
+                  
+
+
+                                                         
+                  <h5 class=" text-center text-primary">Birthday Cakes</h5>
+                  
+                  
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-4">
+                        <img width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/chocolate-caramel-fudge-cake-half-kg-eggless_1.jpg" alt="">
+                     
+                        <h5 class="card-title text-danger">Rs: 5009 </h5>
+                      </div>
+                      <div class="col-4">
+                        <img  width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/butterscotch-birthday-cake-half-kg_1.jpg" alt="">
+                      
+                        <h5 class="card-title text-danger">Rs: 5080 </h5>
+                      </div>
+                     
+                      <div class="col-4">
+                            <img   width="300px" height="60%"         src="https://www.fnp.com/images/pr/l/v200/butterscotch-crunch-cake-half-kg_1.jpg" alt="">          
+                     
+                            <h5 class="card-title text-danger">Rs: 5000 </h5>
+                          </div>
+                    </div>
+                  </div>
+
+                                     
+
+
+
+
+                  <h5 class=" text-center text-primary">Chocolate Cakes</h5>
+                  
+                  
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-4">
+                        <img width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/yummy-truffle-cream-cake-half-kg_1.jpg" alt="">
+                     
+                        <h5 class="card-title text-danger">Rs: 5009 </h5>
+                      </div>
+                      <div class="col-4">
+                        <img  width="300px" height="60%" src="https://www.fnp.com/images/pr/l/v200/death-by-chocolate-cake-half-kg_1.jpg" alt="">
+                      
+                        <h5 class="card-title text-danger">Rs: 5080 </h5>
+                      </div>
+                     
+                      <div class="col-4">
+                            <img   width="300px" height="60%"         src="https://www.fnp.com/images/pr/l/v200/chocolate-fudge-cake-half-kg_1.jpg" alt="">          
+                     
+                            <h5 class="card-title text-danger">Rs: 5000 </h5>
+                          </div>
+                    </div>
+                  </div>
+
+
+
+                  <!-- footer -->
+                   <div class="cotainer-fluid bg-warning">
+                    <div class="row">
+                      <h1 class="text-center">Location</h1>
+                      <div class="col-6">
+                        <h1 class="text-white">Tasty Cake Shop</h1>
+
+                        <h4>perinthalmana</h4>
+                        <h4>kerala</h4>
+                        <p>tel: 123</p>
+                        <p>Email: Tasty@gmail.com</p>
+                        <p>Website: www.tasty.com</p>
+                      </div>
+                      <div class="col-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.7810795573437!2d76.22025332480801!3d10.979890189181557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7cd1e92d9d7af%3A0x2e3db638eb7100ff!2sCake%20Studio%20%7C%20Perinthalmana%20Shop!5e0!3m2!1sen!2sin!4v1720261256275!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      </div>
+                    </div>
+                   </div>
+</body>
+</html>
+
